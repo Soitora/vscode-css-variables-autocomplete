@@ -61,6 +61,9 @@ export function activate(context: vscode.ExtensionContext) {
       "css",
       "scss",
       "less",
+      "sass",
+      "styl",
+      "stylus",
     ],
     {
       async provideCompletionItems() {
